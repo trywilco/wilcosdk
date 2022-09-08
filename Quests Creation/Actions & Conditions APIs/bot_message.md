@@ -1,0 +1,56 @@
+# bot_message
+
+Category: Chat
+Description: Send message from user to a bot
+Type: Action
+
+## Description
+
+**Type**: Action
+
+Send message to the user on behalf of one of the bots. 
+
+## Params
+
+- **person:** Name of the bot. e.g., `head-of-rd` or `devops`
+- **messages:** list of messages, each contains the `text` and `delay`. The latter means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time.
+    
+    [Text Formatting](../Text%20Formatting.md)
+    
+
+## Outputs
+
+No additional info is added to the global payload outputs.
+
+## Usage Example
+
+```yaml
+startFlow:
+  do:
+  - actionId: bot_message
+    params:
+      person: head-of-rd
+      messages:
+      - text: "![](https://media.giphy.com/media/l2QE93CiS1hR6WbK0/giphy.gif)"
+        delay: 0
+      - text: Hey again!
+        delay: 1500
+      - text: I know that things might feel a bit overwhelming when you start a new
+          job.
+        delay: 2500
+      - text: "So, to help familiarize you with your new work environment, I was thinking
+          that maybe you first should set it up. \U0001F60A"
+        delay: 3000
+      - text: Just **let me know once you’re ready** to start your first task!
+        delay: 5000
+```
+
+The action `bot_message` is used to send instructions from the bot `head-of-rd` to the user.
+
+The example is taken from the `docker-localsetup` quest:
+
+[](https://github.com/trywilco/quest-docker-localsetup/blob/main/steps/setup_frontend_docker_generic.yml)
+
+## Relevant Triggers
+
+All triggers
