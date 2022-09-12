@@ -13,7 +13,7 @@ Send message to the user on behalf of one of the bots.
 ## Params
 
 - **person:** Name of the bot. e.g., `head-of-rd` or `devops`
-- **messages:** list of messages, each contains the `text` and `delay`. The latter means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time.
+- **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
     
     [Text Formatting](../Text%20Formatting.md)
     
