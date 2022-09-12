@@ -12,7 +12,7 @@
 
 ### **How to Create a Quest**
 
-1. Create a new repository from the [quest template](https://github.com/trywilco/quest-template). This is a clone of the Funnel Drop quest and is fully playable as-is.
+1. Create a new repository by clicking on "Use this template" on the [quest template](https://github.com/trywilco/quest-template). This is a clone of the Funnel Drop quest and is fully playable as-is.
 2. Update the quest files to support your new quest:
     1. Make sure to modify the `id` in `quest.yml` and specify a unique quest identifier.
     2. Use this documentation to modify the quest metadata and the logic of the steps.
