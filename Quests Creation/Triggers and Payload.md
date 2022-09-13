@@ -12,9 +12,20 @@ This document:
 
 ## Triggers
 
-### **USER_MESSAGE_TO_<bot_name> (e.g., USER_MESSAGE_TO_DEVOPS)**
+### USER_MESSAGE
 
-Triggered when the user sends a chat message to one of the bots
+Triggered when the user sends a chat message to one of the bots.
+This trigger must contain `params` with `person` key.
+For examplec:
+
+```yaml
+trigger: 
+  type: user_message
+  params:
+    person: head-of-rd
+  flowNode:
+    ...
+```
 
 Payload:
 
