@@ -2,7 +2,7 @@
 
 ### Terminology
 
-- **Quest:** A bunch of steps, all connected together based on their topic.
+- **Quest:** A series of steps, all connected together based on their topic.
 - **Step:** A small task inside a quest. Usually, a step will represent a single user interaction.
 - **Trigger:** An event in the system caused by the user. e.g., New chat message, PR opened, env var added to Heroku, etc.
 - **Action:** A reaction to a triggered event that causes the user’s state in the quest to change. e.g., advance to next step, approve/reject user’s PR, send a message from bot, etc.
