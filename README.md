@@ -4,7 +4,7 @@
 
 ### **Overview**
 This repository contains the documentation for using and creating Wilco quests using Wilco Editor SDK. If you would like to contribute and signup to the Wilco Editor SDK please go to https://trywilco.com/editorsdk and signup as a creator.<br />
-*Please note you must be an existing Wilco player inorder to use the Wilco Editor SDK
+*Please note you must be an existing Wilco player in order to use the Wilco Editor SDK
 
 ### **Issues**
 If you see an error or something incorrect on a specific page or run into trouble while working with the Editor SDK, click Issues https://github.com/trywilco/wilcosdk/issues and create an issue to bring it to the team’s attention. 
