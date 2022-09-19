@@ -8,7 +8,6 @@ This document:
 - Lists the global payload params
 - Explains how the payload is mapped to actions/conditions blocks params
 - Explains the usage of the special `result` param passed to each condition and action
-- 
 
 ## Triggers
 
