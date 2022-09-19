@@ -33,11 +33,7 @@ if:
     ...
 ```
 
-The `heroku_check_backend_config_var` condition is used to check that user set the `NEW_RELIC_LICENSE_KEY` config var. 
-
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
+The `heroku_check_backend_config_var` condition is used to check that user set the `NEW_RELIC_LICENSE_KEY` config var.
 
 ## Relevant Triggers
 

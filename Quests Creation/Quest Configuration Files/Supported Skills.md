@@ -7,7 +7,7 @@
 - database
 - documentation
 - debugging
-- devops
+- lucca
 - observability
 - operations
 - performance

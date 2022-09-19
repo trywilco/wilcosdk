@@ -24,13 +24,13 @@ Example:
 do:
 - actionId: bot_message
   params:
-    person: devops
+    person: lucca
     messages:
     - text: "Great! Next, it might be a good idea to go ahead and **clone that repository**, before doing any other tasks. *Clone it*, don't fork it!"
       delay: 3000
     - text: "\"It might be\" as in - you should definitely do it **before doing any of your next tasks**."
       delay: 2000
-    - text: "When you're done, *talk to ${bots['head-of-rd'].displayName}*, she’ll take it from here."
+    - text: "When you're done, *talk to ${bots['keen'].displayName}*, she’ll take it from here."
       delay: 2500
 - actionId: finish_step
 ```
@@ -158,26 +158,26 @@ if:
     do:
     - actionId: bot_message
       params:
-        person: devops
+        person: lucca
         messages:
         - text: "Looking good! You can merge the PR now."
           delay: 1000
     - actionId: github_pr_approve
       params:
-        person: devops
+        person: lucca
         message: "Looking good! You can merge the PR now."
 
   else:
     do:
     - actionId: bot_message
       params:
-        person: devops
+        person: lucca
         messages:
         - text: "${pr_reject_message}"
           delay: 1000
     - actionId: github_pr_reject
       params:
-        person: devops
+        person: lucca
         message: "${pr_reject_message}"
         messageName: "${pr_reject_message_name}"
 ```

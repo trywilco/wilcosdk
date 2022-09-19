@@ -27,7 +27,7 @@ No additional info is added to the global payload outputs.
 
 ```yaml
 trigger:
-  type: user_message_to_head-of-rd
+  type: user_message_to_keen
   flowNode:
     if:
       conditions:
@@ -36,11 +36,7 @@ trigger:
         ...
 ```
 
-The `is_user_message_text_ready_to_continue` condition is used to verify that the message sent by the user to `head-of-rd` means he is ready to continue.
-
-The example is taken from the `docker-localsetup` quest:
-
-[](https://github.com/trywilco/quest-docker-localsetup/blob/main/steps/setup_docker_generic.yml)
+The `is_user_message_text_ready_to_continue` condition is used to verify that the message sent by the user to `keen` means he is ready to continue.
 
 ## Relevant Triggers
 

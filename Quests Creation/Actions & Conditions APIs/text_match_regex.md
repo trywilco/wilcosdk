@@ -37,10 +37,6 @@ trigger:
 
 The `text_match_regex` condition is used to verify that `path` param found in the payload of the trigger `local_page_load` matches the regex `^/@`
 
-The example is taken from the `docker-localsetup` quest:
-
-[](https://github.com/trywilco/quest-docker-localsetup/blob/main/steps/setup_frontend_docker_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

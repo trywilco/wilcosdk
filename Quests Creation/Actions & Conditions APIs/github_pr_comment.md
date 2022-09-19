@@ -12,7 +12,7 @@ Add comment on a PR on behalf of one the bots
 
 ## Params
 
-- **person:** Name of the bot. e.g., `head-of-rd` or `devops`
+- **person:** Name of the bot. e.g., `keen` or `lucca`
 - **message:** The comment text
     
     [Text Formatting](../Text%20Formatting.md)
@@ -28,15 +28,11 @@ No additional info is added to the global payload outputs.
 do:          
 - actionId: github_pr_comment
   params:
-    person: head-of-rd
+    person: keen
     message: "On it, I'll review the changes right away."
 ```
 
-The `github_pr_comment` action is used to add comment from `head-of-rd` letting user know that she will review the PR.
-
-The example is taken from the `funnel-drop` quest:
-
-[](https://github.com/trywilco/quest-funnel-drop/blob/main/steps/funneldrop_fixing_bug_pr.yml)
+The `github_pr_comment` action is used to add comment from `keen` letting user know that she will review the PR.
 
 ## Relevant Triggers
 

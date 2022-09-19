@@ -38,11 +38,7 @@ if:
     ...
 ```
 
-The `github_is_file_contains` condition is used to check if the `newrelic` file contains the string `license_key`. 
-
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
+The `github_is_file_contains` condition is used to check if the `newrelic` file contains the string `license_key`.
 
 ## Relevant Triggers
 

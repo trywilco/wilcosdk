@@ -49,10 +49,6 @@ then:
 
 In this example we perform api call on Heroku and name the action `heroku_log_drains`. Then, we test if the result array has an elements that contains the string `newrelic.syslog.nr-data.net`.
 
-The example is taken from the `newrelic-logs` quest:
-
-[](https://github.com/trywilco/quest-newreliclogs/blob/main/steps/newrelic_logs_create_heroku_drain.yml)
-
 ## Relevant Triggers
 
 All triggers

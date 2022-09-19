@@ -32,10 +32,6 @@ if:
 
 The `newrelic_license_key_valid` condition is used to check the output of a block named `new_relic_license_key_config` is indeed a valid New Relic license key.
 
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
-
 ## Relevant Triggers
 
 All triggers

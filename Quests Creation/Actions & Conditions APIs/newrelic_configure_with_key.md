@@ -46,7 +46,7 @@ if:
     do:
     - actionId: bot_message
       params:
-        person: devops
+        person: lucca
         messages:
         - text: 'Do you feel seen? Because you are! Good job, now let’s move on. '
           delay: 2500
@@ -59,7 +59,7 @@ if:
           do:
           - actionId: bot_message
             params:
-              person: devops
+              person: lucca
               messages:
               - text: This isn’t an API key, so why are you bothering me with it?
                 delay: 2000
@@ -67,7 +67,7 @@ if:
           do:
           - actionId: bot_message
             params:
-              person: devops
+              person: lucca
               messages:
               - text: Looks like an API key alright, but it ain't the right one. Try
                   again.
@@ -75,10 +75,6 @@ if:
 ```
 
 The `newrelic_configure_with_key` condition is used to try and configure user’s New Relic properties. It is checked for `success` and if was not successful, the `error` set on the action outputs is used to sent the correct message to the user
-
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
 
 ## Relevant Triggers
 

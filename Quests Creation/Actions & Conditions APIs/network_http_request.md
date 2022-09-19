@@ -47,11 +47,7 @@ if:
     ...
 ```
 
-In this example we make a request to users Heroku server to get items. Then we check that response data includes `items`, which means the request was successful. 
-
-The example is taken from the `deployment-backend` quest:
-
-[](https://github.com/trywilco/quest-backend-deployment/blob/main/steps/deployment_backend_push.yml)
+In this example we make a request to users Heroku server to get items. Then we check that response data includes `items`, which means the request was successful.
 
 ## Relevant Triggers
 

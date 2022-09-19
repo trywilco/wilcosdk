@@ -12,7 +12,7 @@ Approve the PR and add comment on behalf of a bot
 
 ## Params
 
-- **person:** Name of the bot. e.g., `head-of-rd` or `devops`
+- **person:** Name of the bot. e.g., `keen` or `lucca`
 - **message:** The comment text
     
     [Text Formatting](../Text%20Formatting.md)
@@ -28,15 +28,11 @@ No additional info is added to the global payload outputs.
 do:
 - actionId: github_pr_approve
   params:
-    person: head-of-rd
+    person: keen
     message: "Nailed it! Excellent job @${user.githubuser}! You can now merge the PR."
 ```
 
-The `github_pr_approve` action is used to approve the PR and let user know he should merge it. The message is sent on behalf of the bot `head-of-rd`
-
-The example is taken from the `funnel-drop` quest:
-
-[https://github.com/trywilco/quest-funnel-drop/blob/main/steps/funneldrop_fixing_bug_pr.yml](https://github.com/trywilco/quest-funnel-drop/blob/main/steps/funneldrop_fixing_bug_pr.yml)
+The `github_pr_approve` action is used to approve the PR and let user know he should merge it. The message is sent on behalf of the bot `keen`
 
 ## Relevant Triggers
 

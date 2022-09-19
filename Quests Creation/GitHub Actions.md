@@ -83,11 +83,7 @@ githubActions:
     testFile: "filter.js"
 ```
 
-This will install `axois` and `dotenv` in the backend folder, download the test file `filter.js` and run the test using the default command `node filter.js`. 
-
-This example is taken from the `search` quest:
-
-[](https://github.com/trywilco/quest-search/blob/main/steps/search_endpoint.yml)
+This will install `axois` and `dotenv` in the backend folder, download the test file `filter.js` and run the test using the default command `node filter.js`.
 
 ---
 
@@ -101,11 +97,7 @@ githubActions:
     testFile: "search-empty.test.js"
 ```
 
-This will install `puppeteer` and `jest-puppeteer` in the frontend folder and, as `jest-puppeteer` capability is specified, will use `jest-puppeteer` to run the tests. 
-
- This example is taken from the `search` quest:
-
-[](https://github.com/trywilco/quest-search/blob/main/steps/search_empty.yml)
+This will install `puppeteer` and `jest-puppeteer` in the frontend folder and, as `jest-puppeteer` capability is specified, will use `jest-puppeteer` to run the tests.
 
 ---
 
@@ -122,10 +114,6 @@ githubActions:
 This will install `autocannon` and `axios` and seed the database with information. Then the `check_latency.js` will be downloaded and test will run using the default command
 
  `node check_layency.js`
-
- This example is taken from the `newrelic-performance` quest:
-
-[](https://github.com/trywilco/quest-newrelic-performance/blob/main/steps/performance_rootcause.yml)
 
 ---
 
@@ -144,8 +132,4 @@ githubActions:
           - mongo ${testFile}
 ```
 
-In this example, we see the usage of both `paramsFramework` and `cmd` keys. The default test command does not work in this case, so `cmd` is used to specify a custom test command. Also, in case the backend framework is `node`, we use specific configurations for both the test file and the command. 
-
-This example taken from the `dataseeding` quest:
-
-[](https://github.com/trywilco/quest-dataseeding/blob/main/steps/dataseeding_script.yml)
+In this example, we see the usage of both `paramsFramework` and `cmd` keys. The default test command does not work in this case, so `cmd` is used to specify a custom test command. Also, in case the backend framework is `node`, we use specific configurations for both the test file and the command.

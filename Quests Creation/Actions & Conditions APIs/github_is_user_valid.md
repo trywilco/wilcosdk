@@ -34,10 +34,6 @@ if:
 
 The `github_is_user_valid` condition uses the result of `user_check_authentication_exists` and checks if it is a valid Github user name.
 
-The example is taken from the `onboarding` quest:
-
-[](https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_githubsetup_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

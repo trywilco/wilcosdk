@@ -12,7 +12,7 @@ Send message to the user on behalf of one of the bots.
 
 ## Params
 
-- **person:** Name of the bot. e.g., `head-of-rd` or `devops`
+- **person:** Name of the bot. e.g., `keen` or `lucca`
 - **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
     
     [Text Formatting](../Text%20Formatting.md)
@@ -29,7 +29,7 @@ startFlow:
   do:
   - actionId: bot_message
     params:
-      person: head-of-rd
+      person: keen
       messages:
       - text: "![](https://media.giphy.com/media/l2QE93CiS1hR6WbK0/giphy.gif)"
         delay: 0
@@ -45,11 +45,7 @@ startFlow:
         delay: 5000
 ```
 
-The action `bot_message` is used to send instructions from the bot `head-of-rd` to the user.
-
-The example is taken from the `docker-localsetup` quest:
-
-[](https://github.com/trywilco/quest-docker-localsetup/blob/main/steps/setup_frontend_docker_generic.yml)
+The action `bot_message` is used to send instructions from the bot `keen` to the user.
 
 ## Relevant Triggers
 

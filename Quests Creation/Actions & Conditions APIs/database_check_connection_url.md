@@ -32,10 +32,6 @@ No additional info is added to the global payload outputs.
 
 In this example we use the output of another condition named `database_url_key_config` to check if it is a valid database connection url. We use the database selected by the user as the database type.
 
-The example is taken from the `backend-deployment` quest:
-
-[](https://github.com/trywilco/quest-backend-deployment/blob/main/steps/deployment_backend_db.yml)
-
 ## Relevant Triggers
 
 All triggers

@@ -25,10 +25,6 @@ do:
  - actionId: github_create_repo
 ```
 
-The example is taken from the `onboarding` quest:
-
-[](https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_githubsetup_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

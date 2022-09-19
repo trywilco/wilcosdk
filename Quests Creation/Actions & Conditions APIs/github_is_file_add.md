@@ -33,10 +33,6 @@ if:
 
 The `github_is_file_added` condition is used to check if the file `backend/package-lock.json` was added for `Node` backend. For other frameworks, the condition will return `false`.
 
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
-
 ## Relevant Triggers
 
 - `github_pr_lifecycle_status`

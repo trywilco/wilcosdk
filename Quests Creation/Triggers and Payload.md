@@ -22,7 +22,7 @@ For examplec:
 trigger: 
   type: user_message
   params:
-    person: head-of-rd
+    person: keen
   flowNode:
     ...
 ```
@@ -103,7 +103,7 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     ```yaml
     actionId: github_pr_approve
     params:
-      person: head-of-rd
+      person: keen
       message: Nailed it! Excellent job @**${user.githubuser}**! You can now merge the PR.
     ```
     
@@ -111,8 +111,8 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     
      Available Ids are
     
-    - `devops`
-    - `head-of-rd`
+    - `keen`
+    - `lucca`
     
     information for each bot:
     
@@ -123,13 +123,13 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     ```yaml
     actionId: bot_message
     params:
-      person: devops
+      person: lucca
       messages:
       - text: Hey ${user.firstName},
         delay: 2000
-      - text: I'm **${bots['devops'].displayName}**, the DevOps team leader.
+      - text: I'm **${bots['lucca'].displayName}**, the lucca team leader.
         delay: 1500
-      - text: "**${bots['head-of-rd'].displayName}** asked me to help you out. Just write
+      - text: "**${bots['keen'].displayName}** asked me to help you out. Just write
           here your *GitHub username* (without the \\`@\\`, so Messenger doesn’t freak
           out), and we'll add you as a contributor to the company's repository."
         delay: 3500
@@ -201,7 +201,7 @@ In addition to specific payload passed by each trigger, a global payload is alwa
         do:
           - actionId: bot_message
             params:
-              person: head-of-rd
+              person: keen
               messages:
               - text: Ooohh, I didn’t expect you to do this so quickly! Even your username,
                   ${path.slice(2)}, brings back memories. Strangely enough, they’re
@@ -209,7 +209,7 @@ In addition to specific payload passed by each trigger, a global payload is alwa
                 delay: 2000
         ```
         
-        We embed `path` param from the payload to the text sent to `head-of-rd` bot. The param here is embedded after applying `slice(2)` on its value.
+        We embed `path` param from the payload to the text sent to `keen` bot. The param here is embedded after applying `slice(2)` on its value.
         
 
 ## Result param

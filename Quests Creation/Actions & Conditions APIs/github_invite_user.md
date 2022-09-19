@@ -29,10 +29,6 @@ do:
 
 The `github_invite_user` action is used to invite user to collaborate on the Github repo created for them. `githubUserName` param in this example is set from the result of previous condition named `user_authentication`. See below for the full YAML example.
 
-The example is taken from the `onboarding` quest:
-
-[](https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_githubsetup_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

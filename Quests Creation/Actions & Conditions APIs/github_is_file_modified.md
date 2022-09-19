@@ -33,10 +33,6 @@ if:
 
 The `github_is_file_modified` condition is used to check if the file `backend/app.js` was modified for `Node` backend. For other frameworks, the condition will return `true`.
 
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
-
 ## Relevant Triggers
 
 - `github_pr_lifecycle_status`

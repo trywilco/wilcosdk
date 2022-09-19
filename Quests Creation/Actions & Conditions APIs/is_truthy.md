@@ -35,10 +35,6 @@ if:
 
 In this example, first we do a http request, and then check if the result is truthy. If the result is indeed truthy, it means the request was successful.
 
-The example is taken from the `backend-deploymentname` quest:
-
-[](https://github.com/trywilco/quest-backend-deployment/blob/main/steps/deployment_backend_push.yml)
-
 ## Relevant Triggers
 
 All triggers

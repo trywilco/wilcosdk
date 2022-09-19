@@ -46,10 +46,6 @@ if:
 
 The `text_contains_strings` condition is used to verify that text entered by the user in Snack means mobile/ios/android.
 
-The example is taken from the `Onboarding` quest:
-
-[https://github.com/trywilco/quest-funnel-drop/blob/main/steps/funneldrop_analyze_data.yml](https://github.com/trywilco/quest-funnel-drop/blob/main/steps/funneldrop_analyze_data.yml)
-
 ## Relevant Triggers
 
 All triggers

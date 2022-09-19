@@ -32,10 +32,6 @@ if:
 
 The `action_success` condition is used to verify that action block with the name `newrelic_configure_with_key` finished successfully
 
-The example is taken from the `newrelic-observability` quest:
-
-*TBD: Add link to quest*
-
 ## Relevant Triggers
 
 All triggers

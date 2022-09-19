@@ -28,10 +28,6 @@ if:
     ...
 ```
 
-The example is taken from the `onboarding` quest:
-
-[](https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_accept_invite_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

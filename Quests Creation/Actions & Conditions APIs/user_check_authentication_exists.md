@@ -51,10 +51,6 @@ startFlow:
 
 The `user_check_authentication_exists` condition is used to verify that user authenticated itself using Github.
 
-The example is taken from the `onboarding` quest:
-
-[](https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_githubsetup_generic.yml)
-
 ## Relevant Triggers
 
 All triggers

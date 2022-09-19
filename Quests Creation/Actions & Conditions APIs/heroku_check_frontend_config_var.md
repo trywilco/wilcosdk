@@ -33,11 +33,7 @@ if:
     ...
 ```
 
-The `heroku_check_frontend_config_var` condition is used to check that user set the PROJECT_PATH config var. 
-
-The example is taken from the `deployment-frontend` quest:
-
-*TBD: Add link to quest*
+The `heroku_check_frontend_config_var` condition is used to check that user set the PROJECT_PATH config var.
 
 ## Relevant Triggers
 
