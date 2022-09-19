@@ -43,7 +43,7 @@ steps: List of all quest step ids | mandatory
 - ...
 - step_id_n
 skills: List of skills the user will work on when playing the quest | mandatory
-- skil_1
+- skill_1
 - skill_2
 - ...
 - skill_n
