@@ -34,6 +34,8 @@ Payload:
 
 Triggered when the status of a PR user opened is changed
 
+Payload:
+
 - `eventType:` the status of the PR. Equal to one of the following:
     - `github_pr_opened:` PR just opened by the user
     - `github_pr_workflow_complete_success:` All PR checks passed with success
