@@ -15,7 +15,7 @@ This document:
 
 Triggered when the user sends a chat message to one of the bots.
 This trigger must contain `params` with `person` key.
-For examplec:
+For example:
 
 ```yaml
 trigger: 
