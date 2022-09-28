@@ -221,6 +221,6 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [array_find](Actions%20&%20Conditions%20APIs/array_find.md)                                                        | Array    | Condition | Find an element in the array that matches specified conditions |
 | [array_every](Actions%20&%20Conditions%20APIs/array_every.md)                                                      | Array    | Condition | Tests whether all elements in an array pass specified conditions |
 | [finish_step](Actions%20&%20Conditions%20APIs/finish_step.md)                                                      | Quest    | Action    | Advance user to next step or finish quest in case this is the last step |
-
+| [quest_event](Actions%20&%20Conditions%20APIs/quest_event.md)                                                      | Quest    | Action    | Notify a user about an event that happened while playing in a quest. |
 
 [Text Formatting](Actions%20&%20Conditions%20APIs/Text%20Formatting.md)
