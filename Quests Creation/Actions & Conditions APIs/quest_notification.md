@@ -12,8 +12,8 @@ Notify a user about an event that happened while playing in a quest.
 
 ## Params
 
-- **title:** The title of the notification to be displayed.
-- **description**: The description to be displayed in notification. 
+- **title:** The title of the notification to be displayed. Limited to 28 characters. 
+- **description**: The description to be displayed in notification. Limited to 52 characters.
 - **imageUrl**: The image to be displayed in the notification. Defaults to "Hello World" image. 
 
 ## Result
