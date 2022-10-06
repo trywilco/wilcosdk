@@ -1,6 +1,6 @@
 # Text Formatting
 
-When sending text on behalf of a bot in Snack or Github, some formatting options are available:v
+When sending text on behalf of a bot in Snack or Github, several formatting options are available:
 
 ## Styling text
 
