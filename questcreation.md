@@ -28,6 +28,12 @@
 4. In case auto-upload is not used, the zip file should be manually uploaded. To do that, open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `Upload new quest` button and select the zip file. If you upload a new version for an existing quest, find the quest in the list and click the `Upload version` button.
 5. Once the quest has finished uploading, click the `Test Quest in Snack` button and test the full quest flow.
 6. When the quest is ready, click the `Submit for review` button.
+7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog, and become available to all Wilco users, depending on the Level and Skills they have selected.
+
+<aside>
+💡 If you would like publish a quest only to users from your company, go to [https://www.trywilco.com/teams/join](https://www.trywilco.com/teams/join) to learn more about Wilco for Teams.
+
+</aside>
 
 ### Quest Configuration Files
 
