@@ -33,7 +33,7 @@ for (const str in string) {
 }
 ```
 
-## instructions
+## Instructions
 
 Use `:instruction[open a PR]` to create an inlined instruction
 Use `:instruction[you should open a PR right away]{block=true}` to created a block with the instruction highlighted
