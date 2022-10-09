@@ -31,7 +31,7 @@
 7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog, and become available to all Wilco users, depending on the Level and Skills they have selected.
 
 <aside>
-💡 If you would like publish a quest only to users from your company, go to https://www.trywilco.com/teams/join to learn more about Wilco for Teams.
+💡 If you would like publish a quest only to users from your company, go to https://www.trywilco.com/teams/join to learn more about **Wilco for Teams**.
 
 </aside>
 
