@@ -8,11 +8,11 @@ Type: Condition
 
 **Type**: condition
 
-Check if previously executed action block was finished with success. It uses the `success` param set on the outputs of every named block.
+Check if a previously executed action block was finished successfully. It uses the `success` param set on the output of every named block.
 
 ## Params
 
-- **name:** name of the action block
+- **name:** The name of the action block.
 
 ## Outputs
 
@@ -30,8 +30,8 @@ if:
     ...
 ```
 
-The `action_success` condition is used to verify that action block with the name `newrelic_configure_with_key` finished successfully
+The `action_success` condition is used to verify that the action block with the name `newrelic_configure_with_key` finished successfully.
 
 ## Relevant Triggers
 
-All triggers
+All triggers.

@@ -1,42 +1,41 @@
 # Quests Creation
 
-### Terminology
+### **Terminology**
 
-- **Quest:** A series of steps, all connected together based on their topic.
-- **Step:** A small task inside a quest. Usually, a step will represent a single user interaction.
-- **Trigger:** An event in the system caused by the user. e.g., New chat message, PR opened, env var added to Heroku, etc.
-- **Action:** A reaction to a triggered event that causes the user’s state in the quest to change. e.g., advance to next step, approve/reject user’s PR, send a message from bot, etc.
+- **Step:** A task that usually represents a single user interaction.
+- **Quest:** A series of connected steps that present a complete scenario for users to go through. A typical quest will have 2-5 steps.
+- **Trigger:** A system event caused by the user. Examples: new chat message, PR opened, env var added to Heroku, etc.
+- **Action:** A change in the user's state in reaction to a trigger. 
+Examples: advance to next step, approve/reject user’s PR, send a message from bot, etc.
 - **Conditions:** A way to check the user’s state. The state can be the text user entered in the chat, any piece of information attached to the trigger (e.g., PR Status), or information from a 3rd party service (e.g., env var value in Heroku)
 - **FlowNode:** when a step starts or triggers are recognized, a Flow will begin. A single element in the flow is called FlowNode. A node is a combination of actions and conditions.
 - **GitHub Actions:** command executed as part of GitHub workflow during PR checks.
 
 ### **How to Create a Quest**
 
-1. Create a new repository by clicking on "Use this template" on the [quest template](https://github.com/trywilco/quest-template). This is a clone of the Funnel Drop quest and is fully playable as-is.
-2. Update the quest files to support your new quest, according to the [Quest Development Guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
+1. Create a new repository by going to the [quest template](https://github.com/trywilco/quest-template) and clicking the "use this template" button. This template a clone of the ["Funnel Drop" quest](https://app.wilco.gg/catalog/quest/mobile-responsiveness) and is fully playable as-is.
+2. Update the files to support your new quest, according to the [quest development guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
     1. Make sure to modify the `id` in `quest.yml` and specify a unique quest identifier.
-    2. Use this documentation to modify the quest metadata and the logic of the steps.
-3. Create a zip file from the quest files. You can use one of the following methods:
+    2. Use the documentation to modify the quest metadata and the logic of the steps.
+3. Create a zip file with the quest materials. You can use one of the following methods:
     1. Create a new release in your GitHub repository and download the zip asset generated for the release: [https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
     2. Manually zip the files located on your local machine.
-    3. Auto-upload using Github Workflow :
-        
-        [Auto-Upload Quest Drafts](Quests%20Creation/Auto-Upload%20Quest%20Drafts.md)
+    3. Auto-upload using Github Workflow : [Auto-Upload Quest Drafts](Quests%20Creation/Auto-Upload%20Quest%20Drafts.md)
         
         **NOTE**: *Make sure you have Quests Editor permissions in Wilco.*
         
-4. In case auto-upload is not used, the zip file should be manually uploaded. To do that, open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `Upload new quest` button and select the zip file. If you upload a new version for an existing quest, find the quest in the list and click the `Upload version` button.
-5. Once the quest has finished uploading, click the `Test Quest in Snack` button and test the full quest flow.
-6. When the quest is ready, click the `Submit for review` button. ([See: Review Process and Submission Guidelines](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Review%20Process%20and%20Submission%20Guidelines))
-7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog, and become available to all Wilco users, depending on the Level and Skills they have selected.
+4. If you don't use auto-upload, please upload the zip file manually. Open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
+5. Once the quest has finished uploading, click the `test quest in Snack` button and test the full quest flow.
+6. When the quest is ready, click the `submit for review` button. ([See: Review Process and Submission Guidelines](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Review%20Process%20and%20Submission%20Guidelines))
+7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog and become available to all Wilco users.
 
 
-💡 If you would like publish a quest only to users from your company, go to https://www.trywilco.com/teams/join to learn more about **Wilco for Teams**.
+💡 To publish a quest only to users from your company, you'll need **Wilco for Teams**. Learn more [here](https://www.trywilco.com/teams/join).
 
 
 ### Quest Configuration Files
 
-The uploaded zip must follow the following files structure:
+The uploaded zip must follow the following file structure:
 
 ```
 quest.zip
@@ -57,11 +56,11 @@ quest.zip
     └── <test_file_name_n>
 ```
 
-For full documentation on the quest files configuration files:
+The full documentation on the quest files configuration files can be found here:
 
-[Quest Configuration Files ](Quests%20Creation/Quest%20Configuration%20Files.md)
+[Quest configuration files ](Quests%20Creation/Quest%20Configuration%20Files.md)
 
-[Quest Resources](Quests%20Creation/Quest%20Resources.md)
+[Quest resources](Quests%20Creation/Quest%20Resources.md)
 
 ### Triggers and Payload
 
