@@ -13,7 +13,7 @@
 ### **How to Create a Quest**
 
 1. Create a new repository by clicking on "Use this template" on the [quest template](https://github.com/trywilco/quest-template). This is a clone of the Funnel Drop quest and is fully playable as-is.
-2. Update the quest files to support your new quest, according to the Quest Development Guidelines:
+2. Update the quest files to support your new quest, according to the [Quest Development Guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
     1. Make sure to modify the `id` in `quest.yml` and specify a unique quest identifier.
     2. Use this documentation to modify the quest metadata and the logic of the steps.
 3. Create a zip file from the quest files. You can use one of the following methods:
@@ -27,7 +27,7 @@
         
 4. In case auto-upload is not used, the zip file should be manually uploaded. To do that, open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `Upload new quest` button and select the zip file. If you upload a new version for an existing quest, find the quest in the list and click the `Upload version` button.
 5. Once the quest has finished uploading, click the `Test Quest in Snack` button and test the full quest flow.
-6. When the quest is ready, click the `Submit for review` button.
+6. When the quest is ready, click the `Submit for review` button. ([See: Review Process and Submission Guidelines](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Review%20Process%20and%20Submission%20Guidelines))
 7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog, and become available to all Wilco users, depending on the Level and Skills they have selected.
 
 
