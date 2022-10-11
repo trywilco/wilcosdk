@@ -45,10 +45,10 @@ Things to think about:
 
 **Narrative**
 
-When building a new quest, you’ll be able to use one of the following [characters](https://www.notion.so/NPC-Bots-6671173242574459ba1b21ea6fe0ed46) to communicate with users: 
+When building a new quest, you’ll be able to use one of the following characters to communicate with users: 
 
-- **[Lucca](https://www.notion.so/Lucca-54475518bae544e2823d053106655fc0)**
-- **[Keen](https://www.notion.so/Keen-19a5919b153645f1b13a897d21ffe236)**
+- **[Lucca](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Lucca.md)**
+- **[Keen](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Keen.md)**
 
 To make your quest feel more like a conversation with a real human, make sure that conversation texts align with the voice and tone of each character. 
 
@@ -63,6 +63,10 @@ When writing the conversation texts, it is best to read the texts aloud to yours
 - Is there any extraneous text that can be cut out?
 - Does the conversation read out as a dialogue or a long monologue?
 - Is text formatted properly to highlight instructions, code, etc.? [Learn more](https://github.com/trywilco/wilcosdk/blob/main/Quests%20Creation/Actions%20%26%20Conditions%20APIs/Text%20Formatting.md)
+
+**Hints**
+- Have you provided enough hints for each step? 
+- Are the hints helpful? 
 
 **Feedback** 
 
