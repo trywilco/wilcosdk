@@ -1,3 +1,5 @@
+# Content Guidelines
+
 ### **Planning your quest**
 
 Things to think about: 
