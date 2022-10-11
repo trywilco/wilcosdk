@@ -40,6 +40,14 @@ Use `:instruction[you should open a PR right away]{block=true}` to created a blo
 
 ![Untitled](Text%20Formatting/Untitled.png)
 
+## Code Instructions
+Use `:codeInstruction[highlighted code instruction]` to create an inlined code instructions
+<img width="806" alt="image" src="https://user-images.githubusercontent.com/42963541/195080158-4e29f4fe-f067-4851-b514-fe9f5b999a88.png">
+
+Use `:codeInstruction[you should open a PR right away]{block=true}` to created a block with the code instructions highlighted
+<img width="818" alt="image" src="https://user-images.githubusercontent.com/42963541/195080302-1654d97c-7329-4dbf-8ae7-7c55b31ffec9.png">
+
+
 ## Links
 
 You can create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `( )`: `[link text](url)`. e.g., `[Wilco Homepage](https://app.wilco.gg/home)`.
