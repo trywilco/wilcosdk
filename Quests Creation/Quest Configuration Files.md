@@ -95,11 +95,11 @@ Supported image extensions:
 
 The following files must be placed in the assets folder:
 
-- **cover:** The main cover image of the quest, shown in the catalog.
+- **cover:**  The main cover image of the quest, shown in the catalog. The name of this file must be `cover`.
     
     ![Screen Shot 2022-09-06 at 23.53.34.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.34.png)
     
-- **logo**: The logo image presented when selecting a quest from the catalog.
+- **logo**: The logo image presented when selecting a quest from the catalog. The name of this file must be `logo`.
     
     ![Screen Shot 2022-09-06 at 23.53.48.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.48.png)
     
