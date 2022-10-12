@@ -1,6 +1,6 @@
 # Quest Configuration Files
 
-Each uploaded quest must include a file called `quest.yml` which configures the metadata of the quest, `assets` folder with cover and logo images and `steps` folder with a yaml file for each step. In additional, `tests` folder can be added with test files to be used by the steps.
+Every uploaded quest must include a file called `quest.yml` that configures the metadata of the quest, an `assets` folder with cover and logo images, and a `steps` folder with a yaml file for each step. In addition, a `tests` folder can be added with test files to be used by the steps.
 
 ```
 quest.zip
@@ -21,18 +21,18 @@ quest.zip
     └── <test_file_name_n>
 ```
 
-### quest.yml
+## quest.yml
 
-This is a mandatory file that must be placed at the root of the file's structure. This file defines the metadata of the quest:
+This is a mandatory file that must be placed at the root of the zip archive's structure. This file defines the metadata of the quest:
 
 ```yaml
-id: unique quest identifier. should not change | mandatory
-title: Quest title. "Funnel Drop" in the sample below | mandatory
-description: Quest description. "What's worse.." in the sample below | mandatory
-slogan: Quest slogan. "It's time for.." in the sample below| mandatory
+id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
+title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" in the sample below | mandatory
+description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory
+slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below| mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
-duration: Estimated number of hours to finish the quest | mandatory
-resources**:** List of resources that should be avaiable to the user when quest begins | optional 
+duration: Estimated number of hours required to finish the quest | mandatory
+resources: A list of resources that should be avaiable to the user when quest begins | optional 
 - resource_1
 - resource_2
 - ...
@@ -56,9 +56,9 @@ questDependency: Quest that must be complete before playing this quest | optiona
 
 ![Screen Shot 2022-09-06 at 22.37.35.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_22.37.35.png)
 
-### steps
+## Steps
 
-This is a mandatory folder containing a file for each step defined in `quest.yml` file. There are no rules regarding the files names.
+This is a mandatory folder containing a file for each step defined in `quest.yml` file. There are no rules regarding the file names.
 
 ```yaml
 id: Step id as specified in quest.yml file | mandatory
@@ -73,7 +73,7 @@ trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
   type: Type of trigger (user action) the step waits for
   flowNode: Flow node logic to execute when user perform the action | mandatory
     ...
-githubAction: Github Actions configuration to run in opened PRs | optional\
+githubAction: Github Actions configuration to run in opened PRs | optional
 ```
 
 [Triggers and Payload](Triggers%20and%20Payload.md)
@@ -82,11 +82,11 @@ githubAction: Github Actions configuration to run in opened PRs | optional\
 
 [Actions & Conditions APIs](Actions%20&%20Conditions%20APIs.md)
 
-### assets
+## Assets
 
 The assets folder contains images that are required to present the quest in the catalog or in the list of users’ quests. The folder and the files are mandatory. 
 
-Supported images extensions:
+Supported image extensions:
 
 - png
 - jpg / jpeg
@@ -95,11 +95,11 @@ Supported images extensions:
 
 The following files must be placed in the assets folder:
 
-- **cover:** Main cover image of the quest a presented in the catalog of user’s quests page.
+- **cover:** The main cover image of the quest, shown in the catalog.
     
     ![Screen Shot 2022-09-06 at 23.53.34.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.34.png)
     
-- **logo**: Logo image presented when selecting a quest from the catalog.
+- **logo**: The logo image presented when selecting a quest from the catalog.
     
     ![Screen Shot 2022-09-06 at 23.53.48.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.48.png)
     
