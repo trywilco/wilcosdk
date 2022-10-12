@@ -1,6 +1,6 @@
 # Quest Resources
 
-A quest might be dependent on resources being functional before a user can start the quest. In many cases, a quest might require configuration to be removed. An example for that is when user plays the same quest again and needs to clear any configurations added during the previous playthrough.
+A quest might be dependent on resources being functional before a user can start the quest. In many cases, a quest might require configuration to be removed. An example for that is when a user plays the same quest again and needs to clear any configurations added during the previous playthrough.
 
 | Name | Description |
 |----------------|----------|

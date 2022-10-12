@@ -28,7 +28,7 @@ trigger:
 
 Generated payload:
 
-- `userMessageText`: the text user wrote to the bot
+- `userMessageText`: the text the user wrote to the bot.
 
 ### GITHUB_PR_LIFECYCLE_STATUS
 

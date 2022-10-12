@@ -13,7 +13,7 @@ Examples: advance to next step, approve/reject user’s PR, send a message from 
 
 ### **How to Create a Quest**
 
-1. Create a new repository by going to the [quest template](https://github.com/trywilco/quest-template) and clicking the "use this template" button. This template a clone of the ["Funnel Drop" quest](https://app.wilco.gg/catalog/quest/mobile-responsiveness) and is fully playable as-is.
+1. Create a new repository by going to the [quest template](https://github.com/trywilco/quest-template) and clicking the "use this template" button. This template is a clone of the ["Funnel Drop" quest](https://app.wilco.gg/catalog/quest/mobile-responsiveness) and is fully playable as-is.
 2. Update the files to support your new quest, according to the [quest development guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
     1. Make sure to modify the `id` in `quest.yml` and specify a unique quest identifier.
     2. Use the documentation to modify the quest metadata and the logic of the steps.
