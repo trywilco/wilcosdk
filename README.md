@@ -10,7 +10,7 @@ Existing Wilco users: Click here to become a creator.
 Not a user yet? Click here to sign up as a creator.
 
 ### **Getting started with the Wilco Editor SDK**
-The following repository outlines how to create a quest from scratch, including examples.
+The following repository outlines how to create a quest from scratch or using provided examples.
 
 [Start here](https://github.com/trywilco/wilcosdk/blob/main/questcreation.md)
 
