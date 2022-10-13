@@ -38,7 +38,7 @@ for (const str in string) {
 Use `:instruction[open a PR]` to create an inline instruction
 <img width="758" alt="image" src="https://user-images.githubusercontent.com/42963541/195080979-02e62443-57e2-4f02-bfd9-df1ff12a60ae.png">
 
-Use `:instruction[you should open a PR right away]{block=true}` to created a block with the instruction highlighted
+Use `:instruction[you should open a PR right away]{block=true}` to create a block with the instruction highlighted
 <img width="816" alt="image" src="https://user-images.githubusercontent.com/42963541/195081021-d39539ef-a4c5-43ed-a583-13d962bf517a.png">
 
 
@@ -46,7 +46,7 @@ Use `:instruction[you should open a PR right away]{block=true}` to created a blo
 Use `:codeInstruction[highlighted code instruction]` to create an inline code instruction
 <img width="806" alt="image" src="https://user-images.githubusercontent.com/42963541/195080158-4e29f4fe-f067-4851-b514-fe9f5b999a88.png">
 
-Use `:codeInstruction[you should open a PR right away]{block=true}` to created a block with the code instruction highlighted
+Use `:codeInstruction[you should open a PR right away]{block=true}` to create a block with the code instruction highlighted
 <img width="818" alt="image" src="https://user-images.githubusercontent.com/42963541/195080302-1654d97c-7329-4dbf-8ae7-7c55b31ffec9.png">
 
 
