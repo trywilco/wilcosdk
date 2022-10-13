@@ -6,9 +6,9 @@ When sending text on behalf of a bot in Snack or Github, several formatting opti
 
 | Style | Syntax | Example | Output |
 | --- | --- | --- | --- |
-| Bold | **text** | **this is bold text** | This is bold text |
-| Italic | _text_ | _This text is italicized_ | This text is italicized |
-| Strikethrough | ~text~ | ~This was mistaken text~ | This was mistaken text |
+| Bold | `**text**` | **this is bold text** | This is bold text |
+| Italic | `_text_` | _This text is italicized_ | This text is italicized |
+| Strikethrough | `~text~` | ~This was mistaken text~ | This was mistaken text |
 
 ## Quoting text
 
