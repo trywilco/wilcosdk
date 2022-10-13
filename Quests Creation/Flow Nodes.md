@@ -25,7 +25,7 @@ Each flow node contains any of the following:
           ...
     ```
     
-- **if**: conditional statement. **if** statements evaluate conditions and continue to **then** or **else** flow node according to the result. The result is considered successful if all conditions passed  ( `condition_1 && condition_2 && condition_3` )
+- **if**: conditional statement. **if** statements evaluate conditions and continue to **then** or **else** flow node according to the result. The result is considered successful if all conditions are met  ( `condition_1 && condition_2 && condition_3` )
     
     ```yaml
     if:

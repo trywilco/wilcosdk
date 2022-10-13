@@ -32,21 +32,21 @@ If `frontend` is specified in `githubActions` all frontend dependencies will be 
 
 Each part of the application can define the following configuration keys:
 
-- `testFile`: A test file to be executed as part of the actions. This file must be placed in the `tests` folder of the quest files structure and is downloaded to the Github Workflow environment. The supported test file types are:
+- `testFile`: A test file to be executed as part of the actions. This file must be placed in the `tests` folder of the quest file structure and is downloaded to the Github Workflow environment. The supported test file types are:
     - `js`: javascript file
     - `sql`: Structured Query Language files that contain code to work with relational databases
     
-    Unless specified differently by the `capabilities` and/or `cmd` configuration, the test file will be executed using the following default commands:
+    Unless specified differently by the `capabilities` and/or `cmd` configuration, the test file will be executed using following default commands:
     
     - Backend: `node ${testFile}`
     - Frontend: `yarn test --ci --watchAll=false --silent ./${testFile}`
     
-- `capabilities`. Capabilities are everything that is required to run the tests. The default behavior for capabilities is to install a library required by the test file. It means that the action generated will simply run the command `yarn add <capability>`.
+- `capabilities`: Capabilities are everything that is required to run the tests. The default behavior for `capabilities` is to install a library required by the test file. It means that the action generated will simply run the command `yarn add <capability>`.
     
     Some capabilities perform more complicated actions and are used to simplify the configuration of common behaviors:
     
-    - `seeds`: Seeds the database with information for tests that require that. This will generate an action according to the current backend database type.
-    - `jest-puppeteer`: Frontend tests frequently require running [jest-puppeteer](https://jestjs.io/docs/puppeteer). If this capability is set, default `jest-puppeteer` configuration files will be downloaded to the workflow environment, and the test command will be replaced with:
+    - `seeds`: Seeds the database with information for tests which require seeded data. This will generate an action according to the current backend database type.
+    - `jest-puppeteer`: Frontend tests frequently require running [jest-puppeteer](https://jestjs.io/docs/puppeteer). If this capability is set, default `jest-puppeteer` configuration files will be downloaded to the workflow environment and the test command will be replaced with:
         
         `yarn run jest -c src/jest.config.js`
         
@@ -83,7 +83,7 @@ githubActions:
     testFile: "filter.js"
 ```
 
-This will install `axois` and `dotenv` in the backend folder, download the test file `filter.js` and run the test using the default command `node filter.js`.
+This will install `axios` and `dotenv` in the backend folder, download the test file `filter.js` and run the test using the default command `node filter.js`.
 
 ---
 
