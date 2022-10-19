@@ -31,10 +31,6 @@ title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" 
 description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory
 slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
-learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
-- learning_objective_1
-- learning_objective_2
-- ...
 duration: Estimated number of hours required to finish the quest | mandatory
 resources: A list of resources that should be avaiable to the user when quest begins | optional 
 - resource_1
@@ -66,6 +62,10 @@ This is a mandatory folder containing a file for each step defined in `quest.yml
 
 ```yaml
 id: Step id as specified in quest.yml file | mandatory
+learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
+- learning_objective_1
+- learning_objective_2
+- ...
 hints: List of hints to give the user when they are stuck | optional
 - hint_1
 - hint_2
