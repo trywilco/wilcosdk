@@ -197,7 +197,7 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [github_is_user_valid](Actions%20&%20Conditions%20APIs/github_is_user_valid.md)                                    | Github   | Condition | Check if username exists in Github |
 | [github_is_file_modified](Actions%20&%20Conditions%20APIs/github_is_file_modified.md)                              | String   | Condition | Check if a specified file was modified as part of PR changes |
 | [github_is_one_of_files_modified](Actions%20&%20Conditions%20APIs/github_is_one_of_files_modified.md)              | Github   | Condition | Check if one of the specified files was modified as part of PR changes |
-| [github_is_file_add](Actions%20&%20Conditions%20APIs/github_is_file_add.md)                                        | Github   | Condition | Check if specified files were added as part of PR changes. |
+| [github_is_file_added](Actions%20&%20Conditions%20APIs/github_is_file_added.md)                                    | Github   | Condition | Check if specified files were added as part of PR changes. |
 | [github_is_file_contains](Actions%20&%20Conditions%20APIs/github_is_file_contains.md)                              | Github   | Condition | Check if a file added in the PR contains text that matches a regex |
 | [github_is_repo_collaborator](Actions%20&%20Conditions%20APIs/github_is_repo_collaborator.md)                      | Github   | Condition | "Check if the user accepted the invitation for their repo. " |
 | [github_is_file_added_in_push](Actions%20&%20Conditions%20APIs/github_is_file_added_in_push.md)                    | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |
