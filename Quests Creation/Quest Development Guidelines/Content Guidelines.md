@@ -1,5 +1,7 @@
 # Content Guidelines
 
+Before you begin building your quest, it is essential to begin by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
+
 ### **Planning your quest**
 
 Things to think about: 
@@ -10,8 +12,9 @@ Things to think about:
 - What is the prerequisite knowledge required to successfully complete the quest?
 
 **Skills** 
+- What skill topics is your quest related to? (See [supported skills](https://github.com/trywilco/wilcosdk/blob/main/Quests%20Creation/Quest%20Configuration%20Files/Supported%20Skills.md))
 
-- What skill topics is your quest related to?
+**Learning Objectives**
 - What can developers expect that they will be able to DO after they complete this quest?
 
 **Quest Task**
@@ -29,9 +32,9 @@ Things to think about:
 **Steps** 
 
 - What are the steps required to complete the task?
-- Do the steps align with the defined learning objectives?
+- What will the user DO in each step? Do these steps align with the learning objectives you defined? 
 - Does the order of steps make sense?
-- What does the user need to do in each step, and how will you verify that the step has been completed successfully?
+- How will you verify that the step has been completed successfully?
 - Are there any tests you need to write to check users’ work?
 - What hints can you provide to help users if they get stuck? (Each step should have at least one hint)
 - What would a textbook solution look like?
@@ -40,6 +43,7 @@ Things to think about:
 
 - How long do you think it will take developers to complete the quest?
 - How long would it take you to perform this task, if you were doing it for the first time?
+
 
 ### **Writing the Quest Texts**
 
