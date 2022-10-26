@@ -15,7 +15,7 @@ Send message to the user on behalf of one of the bots.
 - **person:** Name of the bot. e.g., `keen` or `lucca`
 - **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
     
-    [Text Formatting](../Text%20Formatting.md)
+    [Text Formatting](https://github.com/trywilco/wilcosdk/blob/main/Quests%20Creation/Actions%20%26%20Conditions%20APIs/Text%20Formatting.md)
     
 
 ## Outputs
