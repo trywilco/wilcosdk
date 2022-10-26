@@ -29,7 +29,7 @@ This is a mandatory file that must be placed at the root of the zip archive's st
 id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
 title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" in the sample below | mandatory
 description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory
-slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below| mandatory
+slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
 duration: Estimated number of hours required to finish the quest | mandatory
 resources: A list of resources that should be avaiable to the user when quest begins | optional 
@@ -62,6 +62,10 @@ This is a mandatory folder containing a file for each step defined in `quest.yml
 
 ```yaml
 id: Step id as specified in quest.yml file | mandatory
+learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
+- learning_objective_1
+- learning_objective_2
+- ...
 hints: List of hints to give the user when they are stuck | optional
 - hint_1
 - hint_2
