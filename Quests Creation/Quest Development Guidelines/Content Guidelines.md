@@ -1,6 +1,6 @@
 # Content Guidelines
 
-Before you begin building your quest, it is essential to begin by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
+Before you begin building your quest, it is essential to start by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
 
 ### **Planning your quest**
 
