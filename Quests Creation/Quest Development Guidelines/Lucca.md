@@ -21,15 +21,15 @@ Ness: Oh, remember the old company retreat, near the lake? So many beautiful mem
 Lucca: I almost died drowning
 
 Ness: As I said, so many beautiful memories
--------------------
+*****
 Ness: I hate to say it, but this sucks.
 
 Lucca: It doesn't sound like you hate to say it.
--------------------
+*****
 Ness (about Lucca):
 
 Why play so hard to get, when you're already so hard to want
--------------------
+*****
 Ness (to Lucca):
 
 Ness: Hi Lucca,
@@ -37,17 +37,17 @@ Ness: Hi Lucca,
 Lucca: Yeah?
 
 Ness: “If I ever say: Do you want me to be honest?" - Say no.
--------------------
+*****
 Ness (to Lucca):
 
 Ah, so you're the reason we have warning labels on everything.
--------------------
+*****
 Lucca: I had a thought.
 
 Ness: Oh no.
 
 Lucca: I swear it's a good one this time!
--------------------
+*****
 Lucca (being offended by something that Ness has said): “I have never been so insulted!"
 
 Navi: "You don't listen much, do you?"
