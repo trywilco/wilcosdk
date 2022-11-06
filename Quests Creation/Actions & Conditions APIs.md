@@ -207,6 +207,7 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [github_pr_approve](Actions%20&%20Conditions%20APIs/github_pr_approve.md)                                          | Github   | Action    | Approve the PR and add a comment on behalf of a bot. |
 | [github_pr_reject](Actions%20&%20Conditions%20APIs/github_pr_reject.md)                                            | Github   | Action    | Reject the PR and add a comment on behalf of a bot. |
 | [github_open_issue](Actions%20&%20Conditions%20APIs/github_open_issue.md)                                          | Github   | Action    | Opens an issue in the user’s Github repository |
+| [github_commit file](Actions%20&%20Conditions%20APIs/github_commit_file.md)                                          | Github   | Action    | Fommit a file to the user's repository|
 | [heroku_check_backend_config_var](Actions%20&%20Conditions%20APIs/heroku_check_backend_config_var.md)              | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app. |
 | [heroku_check_frontend_config_var](Actions%20&%20Conditions%20APIs/heroku_check_frontend_config_var.md)            | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app. |
 | [newrelic_license_key_valid](Actions%20&%20Conditions%20APIs/newrelic_license_key_valid.md)                        | NewRelic | Condition | Check if the given key is a valid new relic license key. |
