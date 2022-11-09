@@ -57,3 +57,6 @@ You can create an inline link by wrapping link text in brackets `[ ]`, and then
 ## Functions
 
 You can also use a basic JS functions manipulations like `slice` `split` `substring` or `toUpperCase`. You can also have all the [Lodash](https://lodash.com/docs/) utility functions, and you can use it by `Lodash.someX...`
+
+## Input
+Use `:input[clickable text to display]{text='message to type on click'}` to create an inline clickable text that will type a given message on behalf of the user.
