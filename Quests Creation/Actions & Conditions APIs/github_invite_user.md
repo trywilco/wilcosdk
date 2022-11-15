@@ -13,6 +13,7 @@ Invite user to collaborate on Github repo
 ## Params
 
 - **githubUserName:** user’s Github username
+- **person:** Name of the bot that will send the invite. e.g., `keen` or `lucca` (optional)
 
 ## Result
 
