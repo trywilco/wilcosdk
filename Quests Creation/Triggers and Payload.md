@@ -69,10 +69,20 @@ curl -X POST https://engine.wilco.gg/users/6305d30728873aa7be557500/event -d '{"
 
 ```
 
-Payload:
+```yaml
+trigger: 
+  type: user_event
+  params:
+    event: event_name
+  flowNode:
+    ...
+```
 
+Parmas:
 - `event:` The name of the event you want to send.
-- `metadata:` Metadata we want to attach, it'll be available later for your trigger.
+
+Payload:
+- `eventMetadata:` the metadata that was attached to this event.
 
 ### HEROKU_RELEASE_CREATED
 
