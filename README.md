@@ -1,4 +1,4 @@
-# ATTENTION: This is an old version of the documentatio.
+# ATTENTION: This is an old version of Wilco's SDK.
 The new version can be found here: https://dev.trywilco.com/
 
 If you'd like to add or contribute, the repo can be found here: https://github.com/trywilco/wilco-docs/tree/main/docs
