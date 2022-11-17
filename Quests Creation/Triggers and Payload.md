@@ -60,6 +60,30 @@ Payload:
 
 - `path:` The URL of the opened page.
 
+### USER_EVENT
+
+Triggered when we got a new event for the user.
+To send a new user event you shuold post event to: `/users/:id/event`. You can find the user id in the `.wilco` file in the user's repository:
+```
+curl -X POST https://engine.wilco.gg/users/6305d30728873aa7be557500/event -d '{"event":"event_name", "metadata": {}}' -H 'Content-Type: application/json'
+
+```
+
+```yaml
+trigger: 
+  type: user_event
+  params:
+    event: event_name
+  flowNode:
+    ...
+```
+
+Parmas:
+- `event:` The name of the event you want to send.
+
+Payload:
+- `eventMetadata:` the metadata that was attached to this event.
+
 ### HEROKU_RELEASE_CREATED
 
 Triggered when a new Heroku release is created. 
