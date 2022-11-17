@@ -1,13 +1,9 @@
 # ATTENTION: This is an old version of the documentatio.
-The new version can be found here: https://trywilco.github.io/wilco-docs/
+The new version can be found here: https://dev.trywilco.com/
 
 If you'd like to add or contribute, the repo can be found here: https://github.com/trywilco/wilco-docs/tree/main/docs
 
-
-
 # 
-#
-#
 
 
 <p align="center">
