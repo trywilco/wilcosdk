@@ -1,3 +1,10 @@
+# ATTENTION: This is an old version of the documentatio.
+The new version can be found here: https://trywilco.github.io/wilco-docs/
+
+If you'd like to add or contribute, the repo can be found here: https://github.com/trywilco/wilco-docs/tree/main/docs
+
+
+
 <p align="center">
 <img width="500" alt="Wilco Editor SDK" src="https://user-images.githubusercontent.com/108607031/195384783-a098d06e-fa09-4463-a9ec-4de5122d704e.png">
 </p>
