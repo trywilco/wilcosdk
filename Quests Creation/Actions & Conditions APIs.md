@@ -15,7 +15,7 @@ Actions support the following params:
 | actionId | String | YES | - | String representing the actions. See section below for supported actions ids. |
 | name | String | NO | null | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}`. |
 | params | Map | NO | null | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured. |
-| paramsFramework | Map | NO | null | Used in cases framework selected by the user affects the parameterss passed to the action. It is a map from the framework name to the parameters.|
+| paramsFramework | Map | NO | null | Used in cases framework selected by the user affects the parameters passed to the action. It is a map from the framework name to the parameters.|
 
 Example:
 
