@@ -221,6 +221,6 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [array_every](Actions%20&%20Conditions%20APIs/array_every.md)                                                      | Array    | Condition | Tests whether all elements in an array pass specified conditions |
 | [finish_step](Actions%20&%20Conditions%20APIs/finish_step.md)                                                      | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step |
 | [quest_notification](Actions%20&%20Conditions%20APIs/quest_notification.md)                                        | Quest    | Action    | Notify a user about an event that happened while in a quest. |
-| [Armory create account](Actions%20&%20Conditions%20APIs/armory_create_account.md)                                  | Armory   | Action    | Create an Armory account for the user |
+| [armory_create_account](Actions%20&%20Conditions%20APIs/armory_create_account.md)                                  | Armory   | Action    | Create an Armory account for the user |
 
 [Text Formatting](Actions%20&%20Conditions%20APIs/Text%20Formatting.md)
