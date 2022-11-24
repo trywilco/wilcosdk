@@ -10,3 +10,5 @@ Supported properties:
 resources:
 - name: armory
 ```
+
+In this example, an Armory acount prepared and configured to work with the user’s repo.
