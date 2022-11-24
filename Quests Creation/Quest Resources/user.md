@@ -15,8 +15,9 @@ resources:
   clear:
     attribute:
     - newrelic
+    - armory
 ```
 
-This example will remove `newrelic` information stored on the user.
+This example will remove `newrelic` and `armory information stored on the user.
 
 [](https://github.com/trywilco/quest-newrelic-observability/edit/main/quest.yml)
