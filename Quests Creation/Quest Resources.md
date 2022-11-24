@@ -7,3 +7,4 @@ A quest might be dependent on resources being functional before a user can start
 | [heroku_backend](Quest%20Resources/heroku_backend.md) | Heroku app hosting the backend |
 | [heroku_frontend](Quest%20Resources/heroku_frontend.md) | Heroku app hosting the frontend |
 | [user](Quest%20Resources/user.md) | Used to modify user configuration |
+| [armory](Quest%20Resources/armory.md) | Armory client |
